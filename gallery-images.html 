@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery — Ancient Indian Yoga Studio</title>
+<meta name="description" content="Photographs of asanas, Padmasana, mudras, studio, and retreats at Ancient Indian Yoga Studio.">
+<link rel="canonical" href="https://ancientindianyogastudio.com/gallery-images.html">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="gallery.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  "name": "Image Gallery — Ancient Indian Yoga Studio",
+  "url": "https://ancientindianyogastudio.com/gallery-images.html"
+}
+</script>
+</head>
+<body>
+<header>
+  <nav>
+    <a href="index.html" class="logo">Ancient Indian Yoga Studio</a>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="yoga.html">Learn Yoga</a></li>
+      <li><a href="meditation.html">Meditation</a></li>
+      <li><a href="gallery-videos.html">Videos</a></li>
+      <li><a href="gallery-images.html">Images</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="new-student.html" class="cta">First Class Free</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="index.html">Home</a> › <span>Image Gallery</span>
+  </nav>
+
+  <h1>Image Gallery</h1>
+  <p class="lead">Asanas, mudras, and moments from the studio. Click any image to enlarge.</p>
+
+  <!-- SEARCH -->
+  <div class="gallery-controls">
+    <input type="search" id="image-search" placeholder="Search images…" aria-label="Search images">
+  </div>
+
+  <!-- FILTERS -->
+  <div class="gallery-filters" data-target="image-grid">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="asana">Asana</button>
+    <button data-filter="padmasana">Padmasana</button>
+    <button data-filter="mudra">Mudra</button>
+    <button data-filter="studio">Studio</button>
+    <button data-filter="retreat">Retreats</button>
+  </div>
+
+  <!-- GRID (filled by gallery.js) -->
+  <div class="image-grid" id="image-grid" aria-live="polite">
+    <div class="skeleton skeleton-video"></div>
+    <div class="skeleton skeleton-video"></div>
+    <div class="skeleton skeleton-video"></div>
+    <div class="skeleton skeleton-video"></div>
+  </div>
+
+  <p id="image-empty" class="empty-state" hidden>No images match your search.</p>
+
+  <p class="note">All photographs are from our own studio and retreats. No stock images.</p>
+</main>
+
+<footer>
+  <p>© 2026 Ancient Indian Yoga Studio · support.ancientindianyogastudiodotcom@gmail. com</p>
+  <p><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="contact.html">Contact</a></p>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+  <button class="lightbox-close" aria-label="Close">×</button>
+  <button class="lightbox-prev" aria-label="Previous image">‹</button>
+  <img src="" alt="" id="lightbox-img">
+  <button class="lightbox-next" aria-label="Next image">›</button>
+  <p class="lightbox-caption" id="lightbox-caption"></p>
+</div>
+
+<script src="gallery.js"></script>
+</body>
+</html>
