@@ -1,0 +1,124 @@
+">
+
+{
+  "version": "2.0",
+  "updated": "2026-10-22",
+  "studio": "Ancient Indian Yoga Studio",
+  "videos": [
+    {
+      "id": "tadasana",
+      "title": "Tadasana — Mountain Pose",
+      "sanskrit": "ताडासन",
+      "description": "Foundational standing pose. Alignment of feet, spine, and breath.",
+      "category": ["asana", "beginner", "standing"],
+      "video": "videos/tadasana.mp4",
+      "poster": "images/tadasana-poster.webp",
+      "duration": 240,
+      "duration_label": "4 min",
+      "level": "beginner", by
+      "teacher": ,
+      "date": "2026-09-15",
+      "featured": true
+    },
+    {
+      "id": "padmasana",
+      "title": "Padmasana — Lotus Pose",
+      "sanskrit": "पद्मासन",
+      "description": "Full setup, safety, and common mistakes. The classical seated pose for meditation.",
+      "category": ["padmasana", "seated", "intermediate"],
+      "video": "videos/padmasana.mp4",
+      "poster": "images/padmasana-poster.webp",
+      "duration": 540,
+      "duration_label": "9 min",
+      "level": "intermediate",
+      ,
+ 
+      "featured": true
+    },
+    {
+      "id": "ardha-padmasana",
+      "title": "Ardha Padmasana — Half Lotus",
+      "sanskrit": "अर्ध पद्मासन",
+      "description": "For stiff hips and beginners. A gentle gateway to full lotus.",
+      "category": ["padmasana", "seated", "beginner"],
+      "video": "videos/ardha-padmasana.mp4",
+      "poster": "images/ardha-padmasana-poster.webp",
+      "duration": 360,
+      "duration_label": "6 min",
+      "level": "beginner",
+      ,
+     
+    },
+    {
+      "id": "vrikshasana",
+      "title": "Vrikshasana — Tree Pose",
+      "sanskrit": "वृक्षासन",
+      "description": "Balance, drishti, and breath. A study in stillness.",
+      "category": ["asana", "standing", "balance"],
+      "video": "videos/vrikshasana.mp4",
+      "poster": "images/vrikshasana-poster.webp",
+      "duration": 300,
+      "duration_label": "5 min",
+      "level": "all",
+       ,
+      
+      "featured": false
+    },
+    {
+      "id": "nadi-shodhana",
+      "title": "Nadi Shodhana — Alternate Nostril Breathing",
+      "sanskrit": "नाड़ी शोधन",
+      "description": "Step-by-step pranayama for balancing the nervous system.",
+      "category": ["pranayama", "beginner"],
+      "video": "videos/nadi-shodhana.mp4",
+      "poster": "images/nadi-shodhana-poster.webp",
+      "duration": 420,
+      "duration_label": "7 min",
+      "level": "all",
+      "By teacher"
+      "featured": true
+    },
+    {
+      "id": "bhramari",
+      "title": "Bhramari — Humming Bee Breath",
+      "sanskrit": "भ्रामरी",
+      "description": "Calms the nervous system. Ideal before sleep or meditation.",
+      "category": ["pranayama"],
+      "video": "videos/bhramari.mp4",
+      "poster": "images/bhramari-poster.webp",
+      "duration": 300,
+      "duration_label": "5 min",
+      "level": "all",
+      "teacher": 
+      "featured": false
+    },
+    {
+      "id": "trataka",
+      "title": "Trataka — Candle Gazing",
+      "sanskrit": "त्राटक",
+      "description": "A concentration practice from the Hatha texts.",
+      "category": ["meditation", "intermediate"],
+      "video": "videos/trataka.mp4",
+      "poster": "images/trataka-poster.webp",
+      "duration": 600,
+      "duration_label": "10 min",
+      "level": "intermediate",
+      "demostration ":
+      "featured": false
+    },
+    {
+      "id": "breath-awareness",
+      "title": "Breath Awareness Meditation",
+      "sanskrit": "श्वास ध्यान",
+      "description": "Your first 10-minute sit. No experience needed.",
+      "category": ["meditation", "beginner"],
+      "video": "videos/breath-awareness.mp4",
+      "poster": "images/breath-awareness-poster.webp",
+      "duration": 600,
+      "duration_label": "10 min",
+      "level": "beginner",
+      "By teacher":
+      "featured": true
+    }
+  ]
+}
