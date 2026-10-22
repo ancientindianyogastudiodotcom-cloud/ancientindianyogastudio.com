@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Gallery — Ancient Indian Yoga Studio</title>
+<meta name="description" content="Free video demonstrations of yoga asanas, Padmasana, pranayama, and meditation from Ancient Indian Yoga Studio.">
+<link rel="canonical" href="https://ancientindianyogastudio.com/gallery-videos.html">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="gallery.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Video Gallery — Ancient Indian Yoga Studio",
+  "url": "https://ancientindianyogastudio.com/gallery-videos.html",
+  "about": {
+    "@type": "Thing",
+    "name": "Yoga asana, pranayama, and meditation videos"
+  }
+}
+</script>
+</head>
+<body>
+<header>
+  <nav>
+    <a href="index.html" class="logo">Ancient Indian Yoga Studio</a>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="yoga.html">Learn Yoga</a></li>
+      <li><a href="meditation.html">Meditation</a></li>
+      <li><a href="gallery-videos.html">Videos</a></li>
+      <li><a href="gallery-images.html">Images</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="new-student.html" class="cta">First Class Free</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="index.html">Home</a> › <span>Video Gallery</span>
+  </nav>
+
+  <h1>Video Gallery</h1>
+  <p class="lead">Free demonstrations of asanas, Padmasana, pranayama, and meditation — filmed in our studio, unedited.</p>
+
+  <!-- SEARCH + SORT CONTROLS -->
+  <div class="gallery-controls">
+    <input type="search" id="video-search" placeholder="Search videos…" aria-label="Search videos">
+    <select id="video-sort" aria-label="Sort videos">
+      <option value="date-desc">Newest first</option>
+      <option value="date-asc">Oldest first</option>
+      <option value="title-asc">Title A–Z</option>
+      <option value="duration-asc">Shortest first</option>
+      <option value="duration-desc">Longest first</option>
+    </select>
+  </div>
+
+  <!-- FILTERS -->
+  <div class="gallery-filters" data-target="video-grid">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="featured">Featured</button>
+    <button data-filter="asana">Asana</button>
+    <button data-filter="padmasana">Padmasana</button>
+    <button data-filter="pranayama">Pranayama</button>
+    <button data-filter="meditation">Meditation</button>
+    <button data-filter="beginner">Beginner</button>
+  </div>
+
+  <!-- GRID (filled by gallery.js) -->
+  <div class="video-grid" id="video-grid" aria-live="polite">
+    <!-- Skeleton cards shown until JSON loads -->
+    <div class="skeleton skeleton-video"></div>
+    <div class="skeleton skeleton-video"></div>
+    <div class="skeleton skeleton-video"></div>
+  </div>
+
+  <p id="video-empty" class="empty-state" hidden>No videos match your search.</p>
+
+  <p class="note">Videos are filmed in-studio, no music, no filters. What you see is what we teach.</p>
+</main>
+
+<footer>
+  <p>© 2026 Ancient Indian Yoga Studio support.ancientindianyogastudiodotcom@gmail.com</p>
+  <p><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="contact.html">Contact</a></p>
+</footer>
+
+<script src="gallery.js"></script>
+</body>
+</html>
