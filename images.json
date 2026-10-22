@@ -1,0 +1,133 @@
+{
+  "version": "2.0",
+  "updated": "2026-10-22",
+  "studio": "Ancient Indian Yoga Studio",
+  "images": [
+    {
+      "id": "tadasana",
+      "title": "Tadasana — Mountain Pose",
+      "sanskrit": "ताडासन",
+      "category": ["asana", "standing"],
+      "src": "images/tadasana.webp",
+      "alt": "Tadasana mountain pose demonstrating alignment of feet, spine, and breath",
+      "photographer": VP, 
+      "date": "2026-09-15"
+    },
+    {
+      "id": "vrikshasana",
+      "title": "Vrikshasana — Tree Pose",
+      "sanskrit": "वृक्षासन",
+      "category": ["asana", "balance"],
+      "src": "images/vrikshasana.webp",
+      "alt": "Vrikshasana tree pose demonstrating balance and drishti",
+      "photographer": "[VP]",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "trikonasana",
+      "title": "Trikonasana — Triangle Pose",
+      "sanskrit": "त्रिकोणासन",
+      "category": ["asana", "standing"],
+      "src": "images/trikonasana.webp",
+      "alt": "Trikonasana triangle pose demonstrating side body extension",
+      "photographer": "[VP]",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "padmasana",
+      "title": "Padmasana — Full Lotus",
+      "sanskrit": "पद्मासन",
+      "category": ["padmasana", "seated"],
+      "src": "images/padmasana.webp",
+      "alt": "Padmasana full lotus seated pose for meditation",
+      "photographer": "[VP]",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "ardha-padmasana",
+      "title": "Ardha Padmasana — Half Lotus",
+      "sanskrit": "अर्ध पद्मासन",
+      "category": ["padmasana", "seated"],
+      "src": "images/ardha-padmasana.webp",
+      "alt": "Ardha Padmasana half lotus seated pose for beginners",
+      "photographer": "[VP]",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "siddhasana",
+      "title": "Siddhasana — Adept's Pose",
+      "sanskrit": "सिद्धासन",
+      "category": ["padmasana", "seated"],
+      "src": "images/siddhasana.webp",
+      "alt": "Siddhasana adept seated pose for long meditation",
+      "photographer": "[VP]",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "chin-mudra",
+      "title": "Chin Mudra",
+      "sanskrit": "चिन मुद्रा",
+      "category": ["mudra"],
+      "src": "images/chin-mudra.webp",
+      "alt": "Chin mudra hand gesture for meditation and concentration",
+      "photographer": "[VP]",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "gyan-mudra",
+      "title": "Gyan Mudra",
+      "sanskrit": "ज्ञान मुद्रा",
+      "category": ["mudra"],
+      "src": "images/gyan-mudra.webp",
+      "alt": "Gyan mudra hand gesture for wisdom and clarity",
+      "photographer": "[VP]",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "dhyana-mudra",
+      "title": "Dhyana Mudra",
+      "sanskrit": "ध्यान मुद्रा",
+      "category": ["mudra"],
+      "src": "images/dhyana-mudra.webp",
+      "alt": "Dhyana mudra hand gesture for meditation practice",
+      "photographer": "[VP]",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "studio-main",
+      "title": "The Main Room",
+      "category": ["studio"],
+      "src": "images/studio-main.webp",
+      "alt": "Main practice room of Ancient Indian Yoga Studio",
+      "photographer": "[VP]",
+      "date": "2026-10-04"
+    },
+    {
+      "id": "studio-props",
+      "title": "Props Corner",
+      "category": ["studio"],
+      "src": "images/studio-props.webp",
+      "alt": "Yoga props, blocks, bolsters, and mats in the studio",
+      "photographer": "[VP]",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "rishikesh-1",
+      "title": "Rishikesh — Morning Practice",
+      "category": ["retreat"],
+      "src": "images/rishikesh-1.webp",
+      "alt": "Rishikesh retreat morning practice by the Ganga",
+      "photographer": "[VP]",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "rishikesh-2",
+      "title": "Rishikesh — Ganga Aarti",
+      "category": ["retreat"],
+      "src": "images/rishikesh-2.webp",
+      "alt": "Rishikesh retreat Ganga Aarti evening ceremony",
+      "photographer": "[Same ]",
+      "date": "2026-10-10"
+    }
+  ]
+}
